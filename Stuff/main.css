@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#background {
+    background-image: url("Assets/Background--Scarlet-Tree-KDE.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    filter: blur(10px) brightness(.45);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#content {
+    padding-top: 8px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10000000;
+    width: 100%;
+    text-align: center;
+    display: block;
+    height: 100%;
+}
+
+#content header {
+    font-size: 12px;
+    height: 100%;
+}
+
+#content header a {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+}
+
+#content header a:hover {
+    color: rgb(175, 175, 175);
+}
+
+#middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#middle main-title {
+    display: block;
+    color: rgb(209, 209, 209);
+    font-size: 45px;
+}
+
+#middle title-footer {
+    display: block;
+    color: rgb(180, 180, 180);
+    font-size: 18px;
+}
+
