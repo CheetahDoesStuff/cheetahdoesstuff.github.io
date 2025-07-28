@@ -142,7 +142,7 @@ body {
 
 #projects li a .project-desc {
     display: block;
-    width: 100%;
+    /* width: 100%; */
     text-align: left;
 }
 
