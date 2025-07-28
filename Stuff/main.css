@@ -80,7 +80,7 @@ body {
     width: 125px;
     color: rgba(209, 209, 209, .65);
     text-decoration: none;
-    margin: 0px 14px;
+    margin: 6px 14px;
     transition: 200ms;
 }
 
@@ -89,6 +89,10 @@ body {
     padding: 12.5px;
     background-color: rgba(0, 0, 0, 0.39);
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.644);
+}
+
+.contact-button {
+    width: 90% !important;
 }
 
 #content bottom {
