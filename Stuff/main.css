@@ -111,6 +111,17 @@ body {
     scrollbar-color: #00000079 #00000000;
 }
 
+@media (max-width: 600px) {
+    #projects {
+        width: 70%;
+        height: 65vh;
+    }
+    #middle {
+        padding-top: 35px;
+    }
+}
+
+
 #projects li {
     list-style-type: none;
     /* width: 100%; */
