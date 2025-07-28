@@ -114,12 +114,12 @@ body {
 
 #projects li a {
     display: block;
-    color: white;
+    color: rgb(209, 209, 209);
     text-decoration: none;
     justify-content: space-between;
     flex-direction: column;
     padding: 7px 20px;
-    align-items: start;
+    align-items: left;
     background-color: rgba(0, 0, 0, 0.2);
     margin: 12px;
     border-radius: 15px;
@@ -127,16 +127,21 @@ body {
     transition: 250ms;
 }
 
+#projects li a:hover {
+    padding: 7px 30px;
+    border: 2px solid rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
 #projects li a .project-head {
+    color: rgb(209, 209, 209);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#projects li a:hover {
-    padding: 7px 30px;
-    border: 2px solid rgba(0, 0, 0, 0.281);
-    background-color: rgba(0, 0, 0, 0.301);
+#projects li a .project-desc {
+    color: rgb(180, 180, 180);
 }
 
 .status {
