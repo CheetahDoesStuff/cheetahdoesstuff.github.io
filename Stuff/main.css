@@ -128,7 +128,7 @@ body {
     margin: 12px;
     border-radius: 15px;
     border: 2px solid transparent;
-    transition: 250ms;
+    transition: 350ms;
 }
 
 #projects li a:hover {
