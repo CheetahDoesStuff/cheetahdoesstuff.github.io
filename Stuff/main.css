@@ -138,11 +138,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #projects li a .project-desc {
     display: block;
-    /* width: 100%; */
+    color: rgb(180, 180, 180);
+    font-size: 13px;
+    padding-top: 0;
+    margin-top: 0;
     text-align: left;
 }
 
