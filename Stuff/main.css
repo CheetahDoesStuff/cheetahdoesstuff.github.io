@@ -98,11 +98,13 @@ body {
 
 #projects {
     display: inline-block;
-    border: 4px solid rgb(218, 21, 80);
+    border: 4px solid rgba(0, 0, 0, 0.37);
     border-radius: 15px;
     width: 50%;
-    height: 55vh;
+    height: 50vh;
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #00000079 #00000000;
 }
 
 #projects li {
@@ -111,21 +113,30 @@ body {
 }
 
 #projects li a {
-    display: flex;
+    display: block;
     color: white;
     text-decoration: none;
     justify-content: space-between;
+    flex-direction: column;
     padding: 7px 20px;
-    align-items: center;
+    align-items: start;
     background-color: rgba(0, 0, 0, 0.2);
     margin: 12px;
     border-radius: 15px;
     border: 2px solid transparent;
+    transition: 250ms;
+}
+
+#projects li a .project-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #projects li a:hover {
-    border: 2px solid rgb(218, 21, 80);
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7px 30px;
+    border: 2px solid rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.301);
 }
 
 .status {
