@@ -81,7 +81,7 @@ body {
     color: rgba(209, 209, 209, .65);
     text-decoration: none;
     margin: 6px 14px;
-    transition: 200ms;
+    transition: 350ms;
 }
 
 #buttons a:hover {
