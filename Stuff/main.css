@@ -141,7 +141,9 @@ body {
 }
 
 #projects li a .project-desc {
-    color: rgb(180, 180, 180);
+    display: block;
+    width: 100%;
+    text-align: left;
 }
 
 .status {
